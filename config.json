@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "김은서"
+  },
+  "text": {
+    "more": "👇프로젝트 홈페이지👇\nhttps://sites.google.com/view/suspicious-detective-agency/%ED%99%88",
+    "intro": "빅카인즈에서 \u0027이효리\u0027를 검색했을 때의 키워드를 시각화 한 그래프 입니다.\n기간 : 2003.08.01 ~ 2020.11.10\n",
+    "title": "이효리의 기사 키워드 분석 결과(2003~2020)"
+  },
+  "legend": {
+    "edgeLabel": "Undirected",
+    "colorLabel": "성별_여성(주황)/남성(초록)/null(흰색)",
+    "nodeLabel": "키워드 가중치"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "gender",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
